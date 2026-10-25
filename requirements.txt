@@ -1,0 +1,8 @@
+# core + app
+requests
+streamlit
+plotly
+pandas
+# d3-flash backend (GPU machine / Colab only)
+# transformers==5.17.0
+# torch torchvision pillow opencv-python-headless safetensors accelerate bitsandbytes
