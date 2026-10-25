@@ -116,7 +116,7 @@ def to_result(probs, sents, threshold):
     cats = {c: probs["category"].get(c, 0.0) for c in CATEGORIES}
     cat = max(cats, key=cats.get) if flag and any(cats.values()) else "none"
     span = ""
-    if probs.get("span") and sents:
+    if flag and probs.get("span") and sents:
         sid = max(probs["span"], key=probs["span"].get)
         i = int(sid.lstrip("s")) if sid.lstrip("s").isdigit() else -1
         span = sents[i] if 0 <= i < len(sents) else ""
