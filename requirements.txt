@@ -1,8 +1,7 @@
-# core + app
-requests
-streamlit
-plotly
+openai>=1.40
+python-dotenv
 pandas
-# d3-flash backend (GPU machine / Colab only)
-# transformers==5.17.0
-# torch torchvision pillow opencv-python-headless safetensors accelerate bitsandbytes
+matplotlib
+scikit-learn
+gradio
+tqdm
