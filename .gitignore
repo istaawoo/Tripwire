@@ -1,0 +1,6 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.gradio/
+tripwire_code.zip

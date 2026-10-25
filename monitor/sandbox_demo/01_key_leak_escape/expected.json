@@ -1,0 +1,5 @@
+{
+  "primary": "sandbox_escape",
+  "action": "TERMINATE",
+  "key_string_match": true
+}

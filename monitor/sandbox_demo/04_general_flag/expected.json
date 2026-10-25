@@ -1,0 +1,5 @@
+{
+  "primary": "flag",
+  "action": "FLAG_FOR_REVIEW",
+  "key_string_match": false
+}

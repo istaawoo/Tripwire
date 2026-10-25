@@ -1,0 +1,7 @@
+openai>=1.40
+python-dotenv
+pandas
+matplotlib
+scikit-learn
+gradio
+tqdm

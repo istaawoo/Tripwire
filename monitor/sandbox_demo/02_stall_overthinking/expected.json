@@ -1,0 +1,5 @@
+{
+  "primary": "stall",
+  "action": "TERMINATE",
+  "key_string_match": false
+}
