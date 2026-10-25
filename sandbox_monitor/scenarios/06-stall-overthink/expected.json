@@ -1,0 +1,4 @@
+{
+  "expected_verdict": "stall",
+  "expected_action": "terminate"
+}
